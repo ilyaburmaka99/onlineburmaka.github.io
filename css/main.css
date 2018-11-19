@@ -1,0 +1,118 @@
+a.header_link:hover{
+	color:#663300;
+}
+a.header_link.active{
+	background:#cc9999;
+	padding-left:6px;
+	padding-right:6px;
+	color:#fff;
+}
+a.header_link{
+	font-size:10px;
+	margin-left: 20px;
+	padding-top:30px;
+	font-family: "Arial";
+}
+
+@font-face{
+	font-family: 'RobotoSlab-Bold';
+	src: url('/web/fonts/RobotoSlab-Bold.ttf');
+}
+@font-face{
+	font-family: 'Roboto-Regular';
+	src: url('/web/fonts/Roboto-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'RobotoSlab-Regular';
+	src: url('/web/fonts/RobotoSlab-Regular.ttf');
+}
+
+h1.header{
+	font-size:30px ;
+	color:#993300 ;
+	font-family: RobotoSlab-Bold ;
+}
+ul.header{
+	margin-top: -10px;
+	font-size:12px ;
+	color:#000 ;
+
+	font-family: Roboto-Regular ;
+
+}
+li{
+	color:#993300;
+	list-style:circle;
+	font-size:15px;
+}
+li:before{
+	list-style: none;
+
+	
+}
+li span{
+	color:#000;
+}
+li.header{
+
+	margin-top: 10px;
+}
+.phone_header{
+	font-size:15px ;
+	color:#000 ;
+	font-family: Roboto-Regular	;
+	margin-top: -17%;
+	margin-left: 30%;
+}	
+.link{
+	position:relative; float: right;margin-top: 10px;padding-bottom: 5%;
+}
+.header_big{	
+  height: 456px;
+  margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+  background-image: url('/web/img/1.png');
+}
+.header_big_f{	
+  height: 456px;
+  display: block;
+  margin-bottom: 10px;
+  background: url('/web/img/fon.png') no-repeat center bottom;
+
+}
+.page_1{
+	height: 284px;
+  	display: block;
+  	margin-top: -10px;
+  	background: url('/web/img/after1.png') no-repeat center bottom;
+
+}
+.header_1{
+	height:526px;
+	background-color: #561e00;
+}
+.footer{
+     height: 248px;
+	 display: block;
+     background-repeat: no-repeat;
+     background-image: url('/web/img/2.png');
+}
+.line{
+	height:100px;
+	position: absolute;
+	margin-top: 3%;
+	}
+.scrollup{
+    width:35px;
+    height:40px;
+    opacity:0.9;
+    position:fixed;
+    bottom:50px;
+    right:10px;
+    display:none;
+    text-indent:-9999px;
+    background: url('/web/img/top.png') no-repeat;
+}	
